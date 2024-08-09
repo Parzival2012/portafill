@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola Adrian!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sidebar">
+    <button class="menu-btn" onclick="toggleOptions()">Recuerdos</button>
+    <div class="sidebar-content" id="sidebar-content">
+      <a href="#" onclick="showImage('1Comienzo.jpeg')">Recuerdo 1</a>
+      <a href="#" onclick="showImage('2Llamada.jpeg')">Recuerdo 2</a>
+      <a href="#" onclick="showImage('3Revelacion.jpeg')">Recuerdo 3</a>
+      <a href="#" onclick="showImage('4CaraTiempo.jpeg')">Recuerdo 4</a>
+      <a href="#" onclick="showImage('5Confesion.jpeg')">Recuerdo 5</a>
+      <a href="#" onclick="showImage('6Dedicatoria.jpeg')">Recuerdo 6</a>
+      <a href="#" onclick="showImage('7SinComentarios.jpeg')">Recuerdo 7</a>
+    </div>
+    
+    <button class="menu-btn" onclick="toggleOptions2()">Musiquita</button>
+    <div class="sidebar-content" id="sidebar-content2">
+      <a href="https://www.youtube.com/playlist?list=PL93hr1LQIZ2m74eqH-sZDih7D9sBFzuij" target="_blank">Nuestro playlist!!</a>
+    </div>
+    
+    <button class="menu-btn" onclick="toggleOptions3('sidebar-content3')">Carta para ti!!</button>
+    <div class="sidebar-content" id="sidebar-content3">
+      <a href="#" onclick="showImage2('Pag1.jpeg')">Pagina 1</a>
+      <a href="#" onclick="showImage2('Pag2.jpeg')">Pagina 2</a>
+    </div>
+  </div>
+
+  <div class="gallery" id="gallery">
+
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
